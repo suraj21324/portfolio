@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+body {
+    background-image: url(/bgimage.jpg);
+    
+}
+
+/*navbar styling*/
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: rgb(220, 172, 93);
+    opacity: 1;
+    padding: 10px 0;
+    font-family:'ubuntu',sans-serif;
+}
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a {
+    color:rgb(214, 80, 80);
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span {
+    color:rgb(24, 174, 174);
+}
+.navbar .menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+.navbar .menu li a {
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover {
+    color: rgb(214, 80, 80);
+}
+/*home styling*/
+.home {
+    display: flex; 
+    background:url(/alku.jpg)no-repeat right;
+   height:100vh;
+    color: rgb(118, 77, 54);
+    min-height: 500px;
+    font-family:'ubuntu',sans-serif;
+}
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text1 {
+    font-size: 27px;
+}
+.home .home-content .text2 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text3 {
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+/*about styling*/
+.about {
+    font-family:'Poppins' sans-serif;
+}
+.about .title {
+    font-family:'Ubuntu' sans-serif;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    color: blueviolet;
+}
+.about .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: space-between; 
+}
+.about .about-content .column-left { 
+    width: 50% ;
+} 
+.about .about-content .column-left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+} 
+
+.about .about-content .column-right {
+    width: 50%;
+}
+.about .about-content .column-right .text {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .column-right p {
+   color: rgb(23, 108, 108);
+   font-size: 17px;
+} 
+ /*contact styling*/
+.contact {
+    font-family:'Poppins' sans-serif;
+}
+.contact .title {
+    font-family:'Ubuntu' sans-serif;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    color: blueviolet;
+}
+.contact .column-left .text {
+    font-size: 20px;
+}
+/*footer-section*/
+.footer {
+    font-family: 'Poppins' sans-serif;
+}
+              
